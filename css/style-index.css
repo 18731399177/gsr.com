@@ -1,0 +1,50 @@
+@charset "UTF-8";
+/*样式表*/
+body{
+	background-color: black;
+}
+body{
+	min-width: 320px;
+}
+.nav{
+	font-size: 15px;
+	font-weight: bold;
+	font-family: "微软雅黑";
+	background-color: white;
+}
+a{
+	text-decoration: none;
+}
+
+ ul li a{
+	color:black;
+	/*opacity: 0.3;*/
+	font-family: "方正琥珀简体";
+	margin-left: 5px;
+}
+.navbar-brand{
+	color: black;
+	/*opacity: 0.3;*/
+	font-family: "方正琥珀简体";
+}
+.swiper-silde{
+	position: relative;
+}
+.swiper-slide p{
+	color: black;
+	font-size: 30px;
+	font-family: "微软雅黑";
+	font-weight: bold;
+	position: absolute;
+	bottom: -15px;
+}
+/*.swiper-slide img{
+	height: 270px;
+}*/
+h1{
+	font-weight: bold;
+}
+.col-md-6 h4{
+	font-weight: bold;
+	font-size: 30px;
+}
